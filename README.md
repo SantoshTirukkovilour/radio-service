@@ -6,6 +6,7 @@ Android service library which uses AAC Player. Ready to use Radio Player Service
 ## Features ##
 - Play and stop live radio streams on background.
 - Handle incoming and outgoing calls.
+- Supports SDK version 23(Android M) and above
 
 ## Supported URLs
 
