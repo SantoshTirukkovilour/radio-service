@@ -217,5 +217,11 @@ public class RadioManager implements IRadioManager {
         if (isLogging)
             Log.v("RadioManager", "RadioManagerLog : " + log);
     }
+    
+    public void stopNotification() {
+        if(mService != null) {
+            mService.stopFromNotification();
+        }
+    }
 
 }
