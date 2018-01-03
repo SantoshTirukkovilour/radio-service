@@ -98,8 +98,12 @@ public class RadioManager implements IRadioManager {
      */
     @Override
     public boolean isPlaying() {
-        log("IsPlaying : " + mService.isPlaying());
-        return mService.isPlaying();
+        if(mService != null){
+            log("IsPlaying : " + mService.isPlaying());
+            return mService.isPlaying();
+        }else{
+            return false;   
+        }
     }
 
     /**
