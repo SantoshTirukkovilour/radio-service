@@ -34,11 +34,11 @@ public class RadioPlayerService extends Service implements PlayerCallback {
     /**
      * Notification action intent strings
      */
-    public static final String NOTIFICATION_INTENT_PLAY_PAUSE = "co.mobiwise.library.notification.radio.INTENT_PLAYPAUSE";
+    public static final String NOTIFICATION_INTENT_PLAY_PAUSE = "com.radio.library.notification.radio.INTENT_PLAYPAUSE";
 
-    public static final String NOTIFICATION_INTENT_CANCEL = "co.mobiwise.library.notification.radio.INTENT_CANCEL";
+    public static final String NOTIFICATION_INTENT_CANCEL = "com.radio.library.notification.radio.INTENT_CANCEL";
 
-    public static final String NOTIFICATION_INTENT_OPEN_PLAYER = "co.mobiwise.library.notification.radio.INTENT_OPENPLAYER";
+    public static final String NOTIFICATION_INTENT_OPEN_PLAYER = "com.radio.library.notification.radio.INTENT_OPENPLAYER";
 
     /**
      * Notification current values
@@ -96,7 +96,7 @@ public class RadioPlayerService extends Service implements PlayerCallback {
      * Stop action. If another mediaplayer will start.It needs
      * to send broadcast to stop this service.
      */
-    public static final String ACTION_MEDIAPLAYER_STOP = "co.mobiwise.library.ACTION_STOP_MEDIAPLAYER";
+    public static final String ACTION_MEDIAPLAYER_STOP = "com.radio.library.ACTION_STOP_MEDIAPLAYER";
 
     /**
      * AAC Radio Player
