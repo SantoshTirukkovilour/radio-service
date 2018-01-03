@@ -27,5 +27,7 @@ public interface IRadioManager {
     void updateNotification(String singerName, String songName, int smallArt, int bigArt);
 
     void updateNotification(String singerName, String songName, int smallArt, Bitmap bigArt);
+    
+    void stopNotification();
 
 }
